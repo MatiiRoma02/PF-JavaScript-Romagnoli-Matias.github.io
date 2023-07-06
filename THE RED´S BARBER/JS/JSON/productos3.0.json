@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "nombre": "Peines de barberos",
+      "precio": 800,
+      "stock": 5
+    },
+    {
+      "id": 2,
+      "nombre": "Cepillos para el cabello",
+      "precio": 2790,
+      "stock": 8
+    },
+    {
+      "id": 3,
+      "nombre": "Cepillos para la barba",
+      "precio": 780,
+      "stock": 12
+    },
+    {
+      "id": 4,
+      "nombre": "Cepillos para el cuello",
+      "precio": 980,
+      "stock": 3
+    },
+    {
+      "id": 5,
+      "nombre": "Tijeras de peluqueria",
+      "precio": 3350,
+      "stock": 20
+    },
+    {
+      "id": 6,
+      "nombre": "Máquina cortapelos KEMEI",
+      "precio": 25000,
+      "stock": 0
+    },
+    {
+      "id": 7,
+      "nombre": "Navajas de afeitar y cuchillas",
+      "precio": 1500,
+      "stock": 10
+    },
+    {
+      "id": 8,
+      "nombre": "Capas para Peluqueria",
+      "precio": 2350,
+      "stock": 6
+    },
+    {
+      "id": 9,
+      "nombre": "Papel rollo para el cuello JESSAMY",
+      "precio": 1200,
+      "stock": 15
+    },
+    {
+      "id": 10,
+      "nombre": "Secador BELPROF",
+      "precio": 19900,
+      "stock": 2
+    }
+  ]
+  

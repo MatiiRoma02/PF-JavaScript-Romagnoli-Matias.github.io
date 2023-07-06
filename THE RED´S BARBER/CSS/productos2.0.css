@@ -1,0 +1,179 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #49464657;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 60px;
+    font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #272727 !important;
+    color: #de594e !important;
+  }
+  
+  .container {
+    flex: 1;
+  }
+  
+  .navbar-nav,
+  .nav-item,
+  .nav-link {
+    color: #de594e !important;
+    background-color: #272727;
+    text-align: center;
+  }
+  
+  .logoBarberia {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+  }
+  .modo{
+    width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 0;
+  }
+  .img-fluid {
+    border-radius: 100%;
+    width: 375px;
+    height: auto;
+  }
+  
+  .img-fluid img {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .img-fluid:hover {
+    box-shadow: 0 0 10px #00000080;
+    cursor: pointer;
+  }
+  
+  .imgServicios {
+    border-radius: 10%;
+    width: 375px;
+    height: auto;
+  }
+  
+  .imgServicios:hover {
+    box-shadow: 0 0 10px #00000080;
+    cursor: pointer;
+  }
+  
+  h1,
+  h2 {
+    color: #de594e;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+  }
+  
+  h3,
+  h4 {
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  ul,
+  li,
+  p {
+    color: #de594e;
+    text-align: center;
+    list-style-type: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+  }
+  
+  .btn {
+    align-items: center;
+    background-color: #272727;
+    color: #de594e;
+  }
+  
+  /* footer */
+  .footer {
+    background-color: #272727 !important;
+    color: #de594e;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #contacto {
+    padding: 50px 0;
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+ 
+  
+  .product h3 {
+    margin-top: 10px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.card {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  height: 100% !important;
+  transition: box-shadow 0.3s ease-in-out !important;
+}
+.card img {
+  max-width: 300px;
+  max-height: 300px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+
+.products .card {
+  margin-bottom: 20px;
+}
+
+.cart {
+  margin-top: 40px;
+}
+
+.card:hover {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+.product-card {
+  width: 250px;
+}
+
+.product-card .card-img-top {
+  width: 250px;
+  height: 250px;
+}
+
+.cart .card-img-top {
+  width: 50px;
+  height: 50px;
+}
+
+.marker-image {
+  width: 50px;
+  height: 50px;
+}
